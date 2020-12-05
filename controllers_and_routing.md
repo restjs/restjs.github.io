@@ -4,7 +4,7 @@ A controller is a simple javascript class, that controls your responses to the i
 If you have passed the last step ([Quick start](quick_start.md)), you have to see a folder named `controllers` in your `src` folder.
 
 We will create and place our controllers in the `controllers` folder.
-When you clone https://github.com/restjs/restjs-starter repository there's one example controller in the `controllers` folder, and as you can see in the `main.tsx` file we've imported it, also use it as a prop for the router component.
+After cloning https://github.com/restjs/restjs-starter repository there's one example controller in the `controllers` folder, and as you can see in the `main.tsx` file we've imported it, also use it as a prop for the router component.
 
 **./src/controllers/MainController.tsx**
 ```
@@ -127,6 +127,13 @@ export default class MainController{
     }
 }
 ```
+So you have tow nested routes with these urls : 
+
+http://localhost:3000/api/v1/first-method
+
+http://localhost:3000/api/v1/second-method
+
+
 > Notice : Every **Router** component shares its controller instance just with methods like `Get`, `Post`, `Patch`, `Put`, `Delete`.
 >
 >This means if you want to use nested routing, then you have to define a separate controller for every router. 
