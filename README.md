@@ -30,7 +30,7 @@ import MainController from './controllers/MainController';
 const app : React.ReactElement = (
     <Application
         onListen={()=>{
-            console.log('Rest-JS app is running on : http://localhost:3000');
+            console.log('Rest-JS app is running on : http://localhost');
         }}
     >
         <Router path="/" controller={MainController}>
