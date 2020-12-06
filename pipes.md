@@ -144,7 +144,6 @@ import CreateUserDto from "./dto/CreateUserDto";
 
 const app : React.ReactElement = (
     <Application
-        port={80}
         onListen={()=>{
             console.log('Rest-JS app is running on : http://localhost:3000');
         }}
