@@ -17,6 +17,8 @@ We use React (for JSX syntax) and Express packages to configure our NodeJS routi
 
 # What is Rest-JS?
 
+<img src="/images/RestJS-framework.jpg"/>
+
 Rest-JS is a simple and lightweight framework heavily inspired by Nest-JS framework to build Node-JS applications in some simple steps. 
 
 Rest-JS implements some common design patterns like : MVC, Dependency Injection (DI), Pipelines, Interceptors and etc. It also uses OOP (Object-oriented programming) and FP(functional programming) to make sure you'll build performant and scalable server-side applications. 
