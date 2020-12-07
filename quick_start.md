@@ -44,7 +44,7 @@ If you take a look at on your project structure, you'll see some folders and fil
 
 # ./src/main.tsx
 In your IDE please open this file : `/src/main.tsx`
-This file is your application entry point, and you can define your routers here.
+This file is your application's entry point, and you can define your routers here.
 ```
 import React from 'react';
 import {Application, Router, Get} from '@restjs/core';
