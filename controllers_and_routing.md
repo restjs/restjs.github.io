@@ -1,4 +1,6 @@
 # Controllers
+<img src="/images/RestJS-framework-controller.jpg" />
+
 A controller is a simple javascript class, that controls your responses to the incoming requests.
 
 If you have passed the last step ([Quick start](quick_start.md)), you have to see a folder named `controllers` in your `src` folder.
