@@ -6,3 +6,4 @@
 * [Pipes (Validation & Transformation)](pipes.md)
 * [Interceptors](interceptors.md)
 * [Services](services.md)
+* [Filters](filters.md)
